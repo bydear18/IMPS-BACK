@@ -1,0 +1,84 @@
+@media screen and (min-width: 1080px){
+    #signIn {
+        text-decoration: underline;
+        width: 4.5vw;
+    }
+
+    #signIn:hover{
+        color: var(--PrimaryColor);
+    }
+}
+
+@media screen and (min-width: 1368px){
+    #signIn {
+        text-decoration: underline;
+        width: 3vw;
+    }
+
+    #signIn:hover{
+        color: var(--PrimaryColor);
+    }
+}
+
+@media screen and (min-width: 1080px){
+    #regLogCon {
+        background-color: var(--SecondaryColor);
+        border-radius: 0.6vw;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 28vw;
+        height: 37vw;
+        padding:5vh;
+        margin:auto;
+        align-items: center;
+        margin-top: 5vw;
+    }
+}
+
+@media screen and (min-width: 1368px){
+    #regLogCon {
+        background-color: var(--SecondaryColor);
+        border-radius: 0.6vw;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 28vw;
+        height: 34vw;
+        padding:5vh;
+        margin:auto;
+        align-items: center;
+        margin-top: 5vw;
+    }
+}
+
+@media screen and (min-width:1080px){
+    #regQues {
+        margin-top: -1vw;
+        margin-bottom: -0.03vw;
+        font-weight:bold;
+        font-size: 1vw;
+        color: var(--PrimaryColor);
+    }
+}
+
+@media screen and (min-width: 1368px){
+    #regQues {
+        margin-bottom: -0.03vw;
+        font-weight:bold;
+        font-size: 0.8vw;
+        color: var(--PrimaryColor);
+    }
+}
+
+#emailSym {
+    scale: 1.4;
+}
+
+.regInput {
+    margin-left: 1.6vw;
+}
+
+.regLine {
+    margin-top: 0.3vw;
+}
+
+.regShad {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

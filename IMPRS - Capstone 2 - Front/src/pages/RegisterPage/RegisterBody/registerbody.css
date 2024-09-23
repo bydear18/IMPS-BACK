@@ -80,5 +80,43 @@
 }
 
 .regShad {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid #000;
+    border-radius: 0.5vw; 
+    padding: 1em; 
+    font-size: 1em; 
+    color: #333;
+    background-color: white; 
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    width: 100%;
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+.regShad:hover {
+    border-color: var(--PrimaryColor);
+}
+
+.regShad:focus {
+    outline: none; 
+    border-color: var(--PrimaryColor);
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+.select-wrapper {
+    position: relative; 
+    display: inline-block;
+}
+
+.select-wrapper::after {
+    content: '▼'; 
+    position: absolute;
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+.regShad:disabled {
+    background-color: #f0f0f0; 
+    cursor: not-allowed;
+    opacity: 0.6;
 }
